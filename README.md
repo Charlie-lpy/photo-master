@@ -45,7 +45,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🏃‍♀️ Usage
+## 🏃‍♀️ Usage on Website (Streamlit)
 
 Just run the app using Streamlit:
 ```bash
@@ -54,37 +54,16 @@ streamlit run main.py
 A web interface will open in your browser.
 Upload your Excel file and start processing photos with just a few clicks!
 
+### 🗒️ Excel Input Requirements
 
-## 📂 Project Structure
+Your Excel file should include columns like:
 
-```bash
-project_root/
-├── main.py
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│ ├── raw_reports/
-│ └── output_reports/
-│
-├── photos/
-│ ├── downloaded/
-│ ├── cropped/
-│ ├── resized/
-│ └── failed/
-│
-└── src/
-├── __init__.py
-├── parse_excel.py
-├── downloader.py
-├── validator.py
-├── cropper.py
-└── size_adjuster.py
-```
+- **`Confirmation_Number`**: Unique identifier for each person
+- **`Image_URL`**: Direct link to each photo
+- **`Photo_Name`**: Desired filename (optional, can use Confirmation Number)
 
 
-## 🏃‍♀️ Usage
+## 🏃‍♀️ Usage in Terminal (Python)
 
 ### Run the full pipeline:
 ```bash
@@ -106,15 +85,6 @@ python main.py --tool download \
     --download_photo_folder photos/my_downloads
 ```
 All arguments are listed in main.py or with python main.py --help
-
-
-## 🗒️ Excel Input Requirements
-
-Your Excel file should include columns like:
-
-- **`Confirmation_Number`**: Unique identifier for each person
-- **`Image_URL`**: Direct link to each photo
-- **`Photo_Name`**: Desired filename (optional, can use Confirmation Number)
 
 
 ---
