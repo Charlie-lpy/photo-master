@@ -15,9 +15,7 @@ Built with ❤️ using Python and Streamlit — no coding skills required!
 Download and install Python from [python.org](https://www.python.org/downloads).  
 Make sure to check ✅ **"Add Python to PATH"** during installation.
 
-### 📥 2. Clone or Download This Repository (For Beginners)
-
-If you're new to Git or just want the easiest way:
+### 2. Clone or Download This Repository (For Beginners)
 
 - Go to the repo in your browser:  
    👉 [https://github.com/Charlie-lpy/photo-master](https://github.com/Charlie-lpy/photo-master)
@@ -32,7 +30,6 @@ If you're new to Git or just want the easiest way:
    ```
 
 Once you're in the project folder, you're ready to set up the environment!
-   
 
 ### 3. Create and Activate a Virtual Environment
 
