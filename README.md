@@ -15,14 +15,23 @@ Built with ❤️ using Python and Streamlit — no coding skills required!
 Download and install Python from [python.org](https://www.python.org/downloads).  
 Make sure to check ✅ **"Add Python to PATH"** during installation.
 
-### 2. Clone or Download This Repository
+### 📥 2. Clone or Download This Repository (For Beginners)
 
-```bash
-git clone https://github.com/Charlie-lpy/photo-master.git
-cd photo-master-main
-```
+If you're new to Git or just want the easiest way:
 
-Or download the ZIP and extract it manually.
+1. Go to the repo in your browser:  
+   👉 [https://github.com/Charlie-lpy/photo-master](https://github.com/Charlie-lpy/photo-master)
+
+2. Click the green **"Code"** button, then select **"Download ZIP"**
+
+3. After downloading, **extract the ZIP file** to a folder on your computer (e.g., `D:\photo-master`)
+
+4. Open a terminal (Command Prompt), and navigate to that folder:
+   ```bash
+   cd path\to\your\photo-master
+   ```
+   Once you're in the project folder, you're ready to set up the environment!
+   
 
 ### 3. Create and Activate a Virtual Environment
 
