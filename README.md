@@ -2,8 +2,6 @@
 A lightweight and user-friendly Python app for **batch downloading**, **cropping**, and **resizing** profile photos using an Excel report as input.  
 Built with ❤️ using Python and Streamlit — no coding skills required!
 
----
-
 ## 🚀 Features
 
 - 🔽 **Batch download** photos from image URLs in Excel
