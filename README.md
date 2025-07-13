@@ -1,4 +1,5 @@
 # 🖼️ photo-master
+
 A lightweight and user-friendly Python app for **batch downloading**, **cropping**, and **resizing** profile photos using an Excel report as input.  
 Built with ❤️ using Python and Streamlit — no coding skills required!
 
@@ -15,7 +16,7 @@ Built with ❤️ using Python and Streamlit — no coding skills required!
 Download and install Python from [python.org](https://www.python.org/downloads).  
 Make sure to check ✅ **"Add Python to PATH"** during installation.
 
-### 2. Clone or Download This Repository (For Beginners)
+### 2. Download This Repository (For Beginners)
 
 - Go to the repo in your browser:  
    👉 [https://github.com/Charlie-lpy/photo-master](https://github.com/Charlie-lpy/photo-master)
@@ -48,14 +49,16 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🏃‍♀️ Usage on Website (Streamlit)
+## 🌐 Usage with Streamlit Web App
 
-Just run the app using Streamlit:
+Run the app using Streamlit:
+
 ```bash
 streamlit run main.py
 ```
-A web interface will open in your browser.
-Upload your Excel file and start processing photos with just a few clicks!
+
+A web interface will open in your browser.  
+Upload your Excel file and process photos in just a few clicks!
 
 ### 🗒️ Excel Input Requirements
 
@@ -63,14 +66,14 @@ Your Excel file should include columns like:
 
 - **`Confirmation_Number`**: Unique identifier for each person
 - **`Image_URL`**: Direct link to each photo
-- **`Photo_Name`**: Desired filename (optional, can use Confirmation Number)
+- **`Photo_Name`**: Desired filename
 
-
-## 🏃‍♀️ Usage in Terminal (Python)
+## 💻 Usage from the Terminal (Advanced)
 
 ### Run the full pipeline:
+
 ```bash
-python main.py --tool all
+python main.py
 ```
 
 ### Or run individual steps:
@@ -87,8 +90,11 @@ python main.py --tool download \
     --download_input_report data/raw_reports/my_input.xlsx \
     --download_photo_folder photos/my_downloads
 ```
-All arguments are listed in main.py or with python main.py --help
 
+For a full list of arguments, run:
+```bash
+python main.py --help
+```
 
 ## 👩🏻‍💻 Author
 
