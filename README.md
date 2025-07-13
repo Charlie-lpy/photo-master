@@ -9,8 +9,6 @@ Built with ❤️ using Python and Streamlit — no coding skills required!
 - 📏 **Resize** photos to meet file size limits (e.g., 50KB–1MB)
 - ✅ **Validate** image dimensions and generate reports
 
----
-
 ## 📦 Installation
 
 ### 1. Install Python  
