@@ -18,8 +18,8 @@ Make sure to check ✅ **"Add Python to PATH"** during installation.
 ### 2. Clone or Download This Repository
 
 ```bash
-git clone https://github.com/your-username/profile-photo-tool.git
-cd profile-photo-tool
+git clone https://github.com/Charlie-lpy/photo-master.git
+cd photo-master-main
 ```
 
 Or download the ZIP and extract it manually.
