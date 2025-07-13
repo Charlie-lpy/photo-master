@@ -19,14 +19,14 @@ Make sure to check ✅ **"Add Python to PATH"** during installation.
 
 If you're new to Git or just want the easiest way:
 
-1. Go to the repo in your browser:  
+- Go to the repo in your browser:  
    👉 [https://github.com/Charlie-lpy/photo-master](https://github.com/Charlie-lpy/photo-master)
 
-2. Click the green **"Code"** button, then select **"Download ZIP"**
+- Click the green **"Code"** button, then select **"Download ZIP"**
 
-3. After downloading, **extract the ZIP file** to a folder on your computer (e.g., `D:\photo-master`)
+- After downloading, **extract the ZIP file** to a folder on your computer (e.g., `D:\photo-master`)
 
-4. Open a terminal (Command Prompt), and navigate to that folder:
+- Open a terminal (Command Prompt), and navigate to that folder:
    ```bash
    cd path\to\your\photo-master
    ```
