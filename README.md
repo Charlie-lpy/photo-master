@@ -83,8 +83,6 @@ python main.py --tool download \
 All arguments are listed in main.py or with python main.py --help
 
 
----
-
 ## 👩🏻‍💻 Author
 
 Developed by **Charlotte LYU**  
