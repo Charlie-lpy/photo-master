@@ -36,7 +36,10 @@ Once you're in the project folder, you're ready to set up the environment!
 
 ```bash
 python -m venv venv
-# Activate it:
+```
+Activate it:
+
+```bash
 # Windows
 venv\Scripts\activate
 # macOS/Linux
