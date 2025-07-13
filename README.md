@@ -30,7 +30,8 @@ If you're new to Git or just want the easiest way:
    ```bash
    cd path\to\your\photo-master
    ```
-   Once you're in the project folder, you're ready to set up the environment!
+
+Once you're in the project folder, you're ready to set up the environment!
    
 
 ### 3. Create and Activate a Virtual Environment
