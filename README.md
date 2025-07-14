@@ -9,7 +9,7 @@ A lightweight and user-friendly Python app for **batch downloading**, **cropping
 - 📏 **Resize** photos to meet file size limits (e.g., 50KB–1MB)
 - ✅ **Validate** image dimensions and generate reports
 
-## 📦 Installation
+## 📦 Installation and Environment Set-up
 
 ### 1. Install Python  
 Download and install Python from [python.org](https://www.python.org/downloads).  
@@ -24,14 +24,29 @@ Make sure to check ✅ **"Add Python to PATH"** during installation.
 
 - After downloading, **extract the ZIP file** to a folder on your computer (e.g., `D:\photo-master`)
 
-- Open a terminal (Command Prompt), and navigate to that folder:
-   ```bash
-   cd path\to\your\photo-master
-   ```
+### 3. Open a terminal (Command Prompt)
 
-Once you're in the project folder, you're ready to set up the environment!
+- **Windows**:  
+Press `Win + R`, type `cmd`, and hit Enter to open the Command Prompt.
 
-### 3. Create and Activate a Virtual Environment
+- **macOS**:  
+Press `Cmd + Space`, type `Terminal`, and hit Enter.
+
+- **Linux**:  
+  Use `Ctrl + Alt + T`, or search for “Terminal” in your applications menu.
+  
+### 4. Navigate to the Project Folder
+
+Use the `cd` command to move into the folder where you downloaded or cloned this project:
+
+```bash
+cd path/to/your/photo-master
+```
+
+Replace  `path/to/your/...` with the actual folder path.
+Once you're in the project folder, you're ready to **create a virtual environment and install dependencies**!
+
+### 5. Create and Activate a Virtual Environment
 
 ```bash
 python -m venv venv
@@ -41,11 +56,12 @@ Activate it:
 ```bash
 # Windows
 venv\Scripts\activate
+
 # macOS/Linux
 source venv/bin/activate
 ```
 
-### 4. Install Required Packages
+### 6. Install Required Packages
 
 ```bash
 pip install -r requirements.txt
@@ -53,35 +69,42 @@ pip install -r requirements.txt
 
 ## 🌐 Usage with Streamlit Web App
 
-Follow these steps to launch the App on your own machine:
+Follow these steps to launch the App on your local machine:
 
-### Open a Terminal (Command Prompt)
-
-To install and run the app, you'll need to use a terminal window:
+### 1. Open a Terminal (Command Prompt)
 
 - **Windows**:  
-  Press `Win + R`, type `cmd`, and hit Enter to open the Command Prompt.
+Press `Win + R`, type `cmd`, and hit Enter to open the Command Prompt.
 
 - **macOS**:  
-  Press `Cmd + Space`, type `Terminal`, and hit Enter.
+Press `Cmd + Space`, type `Terminal`, and hit Enter.
 
 - **Linux**:  
   Use `Ctrl + Alt + T`, or search for “Terminal” in your applications menu.
 
-### Navigate to the Project Folder
+### 2. Navigate to the Project Folder
 
 Use the `cd` command to move into the folder where you downloaded or cloned this project:
 
 ```bash
-cd path/to/your/data-review-tool
+cd path/to/your/photo-master
 ```
 
 Replace  `path/to/your/...` with the actual folder path.
 
-3. Activate the python environment
-....
+### 3. Activate your Python Virtual Environment
 
-4. Run the app using Streamlit:
+If you followed the setup steps and created a `venv` virtual environment in the project folder, activate it:
+
+```bash
+# For windows:
+venv\Scripts\activate
+
+# For macOS/Linux:
+source venv/bin/activate
+```
+
+### 4. Run the App with Streamlit:
 
 ```bash
 streamlit run app.py
