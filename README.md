@@ -15,7 +15,7 @@ A lightweight and user-friendly Python app for **batch downloading**, **cropping
 Download and install Python from [python.org](https://www.python.org/downloads).  
 Make sure to check ✅ **"Add Python to PATH"** during installation.
 
-### 2. Download This Repository (For Beginners)
+### 2. Download This Repository
 
 - Go to the repo in your browser:  
    👉 [https://github.com/Charlie-lpy/photo-master](https://github.com/Charlie-lpy/photo-master)
@@ -53,7 +53,35 @@ pip install -r requirements.txt
 
 ## 🌐 Usage with Streamlit Web App
 
-Run the app using Streamlit:
+Follow these steps to launch the App on your own machine:
+
+### Open a Terminal (Command Prompt)
+
+To install and run the app, you'll need to use a terminal window:
+
+- **Windows**:  
+  Press `Win + R`, type `cmd`, and hit Enter to open the Command Prompt.
+
+- **macOS**:  
+  Press `Cmd + Space`, type `Terminal`, and hit Enter.
+
+- **Linux**:  
+  Use `Ctrl + Alt + T`, or search for “Terminal” in your applications menu.
+
+### Navigate to the Project Folder
+
+Use the `cd` command to move into the folder where you downloaded or cloned this project:
+
+```bash
+cd path/to/your/data-review-tool
+```
+
+Replace  `path/to/your/...` with the actual folder path.
+
+3. Activate the python environment
+....
+
+4. Run the app using Streamlit:
 
 ```bash
 streamlit run app.py
