@@ -11,7 +11,7 @@ A lightweight and user-friendly Python app for **batch downloading**, **cropping
 
 ## 📦 Installation and Environment Set-up
 
-### 1. Install Python  
+### 1. Install Python (If You Don't Have It)
 Download and install Python from [python.org](https://www.python.org/downloads).  
 Make sure to check ✅ **"Add Python to PATH"** during installation.
 
