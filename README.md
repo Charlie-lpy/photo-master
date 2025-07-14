@@ -44,6 +44,7 @@ cd path/to/your/photo-master
 ```
 
 Replace  `path/to/your/...` with the actual folder path.
+
 Once you're in the project folder, you're ready to **create a virtual environment and install dependencies**!
 
 ### 5. Create and Activate a Virtual Environment
